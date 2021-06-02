@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112937" started-at="2021-05-27T04:54:08Z" finished-at="2021-05-27T04:56:01Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TC221.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC221@2b552920]" name="login" class="testcases.TC221"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="112937" started-at="2021-05-27T04:54:08Z" finished-at="2021-05-27T04:56:01Z">
+      <class name="testcases.TC221">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC221@2b552920]" name="beforeSuite" is-config="true" duration-ms="163" started-at="2021-05-27T04:54:08Z" finished-at="2021-05-27T04:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC221@2b552920]" name="beforeTest" is-config="true" duration-ms="3" started-at="2021-05-27T04:54:08Z" finished-at="2021-05-27T04:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC221@2b552920]" name="setData" is-config="true" duration-ms="0" started-at="2021-05-27T04:54:08Z" finished-at="2021-05-27T04:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC221@2b552920]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-05-27T04:54:09Z" finished-at="2021-05-27T04:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC221@2b552920]" name="login" duration-ms="112179" started-at="2021-05-27T04:54:09Z" data-provider="fetchData" finished-at="2021-05-27T04:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC221]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0']]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ZDMFTK9LYSOZ99IV]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4723']]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[uatuser3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Brac@2025]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[bKash]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1524201862527001']]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BKash]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[100']]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Monthly Swap]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Fund Transfer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Wallet Beneficiary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[MOB]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[BkashWallet|01632222222]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[1234567']]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:34)
+at utils.Reporter.reportStep(Reporter.java:46)
+at wrappers.GenericWrappers.clickByXpathExplict(GenericWrappers.java:771)
+at wrappers.GenericWrappers.logoutApp(GenericWrappers.java:1994)
+at testcases.TC221.login(TC221.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC221@2b552920]" name="afterMethod" is-config="true" duration-ms="4" started-at="2021-05-27T04:56:01Z" finished-at="2021-05-27T04:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC221@2b552920]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-27T04:56:01Z" finished-at="2021-05-27T04:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC221@2b552920]" name="afterSuite" is-config="true" duration-ms="249" started-at="2021-05-27T04:56:01Z" finished-at="2021-05-27T04:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC221 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
