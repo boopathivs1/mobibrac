@@ -17,6 +17,8 @@ public class SQLOTP {
 	            	
                     String userName = "RIB_UAT_APP_USER_R2";
 	                String password = "rib_UAT_APP_USER_R2321";
+	                
+	                System.out.println("hello");
 
 //		    	instance=SANDCASTLE01
 
