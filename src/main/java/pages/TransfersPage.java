@@ -70,7 +70,7 @@ public class TransfersPage  extends ProjectWrappers {
 	
 	public TransfersPage selectBeneNextbutton(String accno){
 		String accnumber=regvalue(accno);
-		clickByXpathExplict(".//p[text()="+accnumber+"]//following::*[contains(@id,'extBtn')]");
+		clickByXpathExplict(".//p[text()="+accnumber+"]//following::*[contains(@id,'next')]");
 	
 	return this;
 }
@@ -80,7 +80,7 @@ public class TransfersPage  extends ProjectWrappers {
 	
 	singleScroll();
 	String accnumber=regvalue(accno);
-	clickByXpathExplict(".//p[text()="+accnumber+"]//following::*[contains(@id,'extBtn')]");
+	clickByXpathExplict(".//p[text()="+accnumber+"]//following::*[contains(@id,'next')]");
 	
 	return this;
 }	

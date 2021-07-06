@@ -27,6 +27,7 @@ public class otp {
     private String myEncryptionKey;
     private String myEncryptionScheme;
     SecretKey key;
+    private static String otp;
 
 	private static String encryptMD5Key = "AA5B3D4D1E7FBA9CDF7B3D4D1E3AB927145B23456E7FBA22";
 	public static void main(String args[])throws SQLException {  
@@ -50,7 +51,7 @@ public class otp {
 			for (int i =0 ; i<1; i++)
 			while(rs.next())  {
 				
-				String otp =rs.getString("otp_number");
+			 otp =rs.getString("otp_number");
 				System.out.println(otp+"finalvalue");
 				//String decryptedvalue = decryptUsingMD5(otp);
 				//System.out.println(decryptedvalue+"lastvalue");
@@ -59,8 +60,9 @@ public class otp {
 				
 					break;
 				}
+				
 			}
-			
+			decryptUsingMD5(otp);
 			stmt.close();
 			con.close(); 
 		}

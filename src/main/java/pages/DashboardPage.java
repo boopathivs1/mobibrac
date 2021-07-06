@@ -110,6 +110,22 @@ clickByXpathExplict(prop.getProperty("click.account.button.xpath"));
 return new Accounts(driver, test);
 }	
 	
+	public PrepaidCard clickPrepaidcardMenu(){
+		
+
+		clickByXpathExplict(prop.getProperty("click.prepaid.menu.xpath"));
+		return new PrepaidCard(driver, test);
+		}	
+	
+	
+public CreditCard clickCreditcardMenu(){
+		
+
+		clickByXpathExplict(prop.getProperty("click.Creditcard.menu.xpath"));
+		return new CreditCard(driver, test);
+		}	
+	
+	
 public BillPaymentPage clickBillandFeesLink() throws InterruptedException{
 	clickByXpathExplict(prop.getProperty("click.Billandfeeslink.xpath"));
 	
